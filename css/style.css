@@ -1,0 +1,76 @@
+
+
+* {
+	margin:5;
+	padding:0px;
+    box-sizing: border-box;
+    background-color: bisque;
+    
+}
+.container {
+	margin: 50px auto;
+	display: flex;
+	align-items: flex-start;
+    width: 90%;
+
+    
+}
+
+.fa-calendar-alt {
+	margin: 0px 10px;
+}
+
+aside, main section {
+    background-color: bisque;
+    /* border: 2px solid green; */
+    margin-right: 2px;
+    flex: 3;
+    padding: 10px;
+    
+}
+main {
+    flex: 7;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.my-name {
+    color: maroon;
+    font-size: 2em;
+    margin: 5;
+}
+
+.my-details {
+    font-size: 1rem;
+    padding: 25px;
+    list-style: none;
+    color: rgba(119, 39, 2, 0.76)
+}
+
+.my-details li {
+    margin: 10px 0px;
+}
+
+.my-details li i {
+    margin: 0px 5px;
+}
+
+
+
+.second-details , li {
+    list-style: none;
+}
+
+.green-span {
+	background-color:#009688;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: normal;
+    color: white;
+}
+#summary-section p{
+    font-style: italic;
+    color: maroon;
+    font-weight: bold;
+}
